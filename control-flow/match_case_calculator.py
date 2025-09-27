@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 num1 = int(input("Enter the first number:"))
 num2 = int(input("Enter the second number:"))
 
@@ -23,7 +22,6 @@ match operation:
     case _:
         print("Invalid operation.")
 
-=======
 num1 = int(input("Enter the first number:"))
 num2 = int(input("Enter the second number:"))
 
@@ -48,4 +46,3 @@ match operation:
     case _:
         print("Invalid operation.")
 
->>>>>>> a2ff1d0c1d2be792f8ce72a34bbfcb8058a7ef58
