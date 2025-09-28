@@ -24,12 +24,12 @@ def main():
 
     if unit == "c":
         result = convert_to_fahrenheit(temp)
-        print("{:.2f}°C is {:.2f}°F".format(temp, result))
+        print("{:.2f}C is {:.2f}F".format(temp, result))
     elif unit == "f":
         result = convert_to_celsius(temp)
-        print("{:.2f}°F is {:.2f}°C".format(temp, result))
+        print("{:.2f}F is {:.2f}C".format(temp, result))
     else:
-        print("Invalid unit. Please enter 'C' or 'F'.")
+        print("Invalid unit. Please enter C or F.")
 
 
 if __name__ == "__main__":
