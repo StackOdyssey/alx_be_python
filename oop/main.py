@@ -2,19 +2,19 @@ from book_class import Book
 from library_system import Book, EBook, PrintBook, Library
 
 def main():
-    # Creating an instance of Book
-    # my_book = Book("1984", "George Orwell", 1949)
+    #Creating an instance of Book
+    my_book = Book("1984", "George Orwell", 1949)
 
-    # # Demonstrating the __str__ method
-    # print(my_book)  # Expected to use __str__
+    # Demonstrating the __str__ method
+    print(my_book)  # Expected to use __str__
 
-    # # Demonstrating the __repr__ method
-    # print(repr(my_book))  # Expected to use __repr__
+    # Demonstrating the __repr__ method
+    print(repr(my_book))  # Expected to use __repr__
 
-    # # Deleting a book instance to trigger __del__
-    # del my_book
+    # Deleting a book instance to trigger __del__
+    del my_book
 
-    # Create a Library instance
+    #Create a Library instance
     my_library = Library()
 
     # Create instances of each type of book
